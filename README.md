@@ -13,25 +13,28 @@ The project should contain the following features:
 * prompt the user for the lower (inclusive) and upper (non-inclusive)
   range of numbers to guess
 * proper comments (heading, methods, inline where needed)
-* static (class) method `int randomInt(int lower, int upper)`
+* public static (class) method `int randomInt(int lower, int upper)`
 * private non-static (instance) variable containing a random integer
 * random int initialized in the *constructor*
 * public non-static (instance) method `boolean isEven()`
 * public non-static (instance) method `boolean isPrime()`
+* public static (class) main method
 
 ## UML Diagram
 
+```
 +------------------------------------------+
-| GuessEvenPrime                           |
+|             GuessEvenPrime               |
 +------------------------------------------+
-| - randNum: int                           |
+|  - randNum: int                          |
 +------------------------------------------+
-| + GuessEvenPrime()                       |
+|  + GuessEvenPrime()                      |
 | _+ randomInt(int lower, int upper): int_ |
-| + isEven() : boolean                     |
-| + isPrime() : boolean                    |
-|_+ main(String[] args) : void_            |
+|  + isEven() : boolean                    |
+|  + isPrime() : boolean                   |
+| _+ main(String[] args) : void_           |
 +------------------------------------------+
+```
 
 ## Example Output
 
