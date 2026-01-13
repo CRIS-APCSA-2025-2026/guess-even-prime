@@ -16,6 +16,7 @@ The project should contain the following features:
 * public static (class) method `int randomInt(int lower, int upper)`
 * private non-static (instance) variable containing a random integer
 * random int initialized in the *constructor*
+* public non-static (instance) method `int getRandNum()` which returns the random number that was initialized in the constructor.
 * public non-static (instance) method `boolean isEven()`
 * public non-static (instance) method `boolean isPrime()`
 * public static (class) main method
@@ -30,6 +31,7 @@ The project should contain the following features:
 +------------------------------------------+
 |  + GuessEvenPrime()                      |
 | _+ randomInt(int lower, int upper): int_ |
+|  + getRandNum() : int                    |
 |  + isEven() : boolean                    |
 |  + isPrime() : boolean                   |
 | _+ main(String[] args) : void_           |
